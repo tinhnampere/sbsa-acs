@@ -491,7 +491,7 @@ pal_pcie_p2p_support(void)
   // This API checks the PCIe hierarchy for P2P support as defined
   // in the PCIe platform configuration
 
-  return PLATFORM_PCIE_P2P_NOT_SUPPORTED;
+  return 0;
 
 }
 
